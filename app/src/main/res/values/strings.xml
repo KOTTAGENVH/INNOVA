@@ -24,5 +24,15 @@
     <string name="InputHint12">Enter Total Bill</string>
     <string name="InputHint13">%</string>
 
+    <string name="Topic1">Calculate Finance</string>
+    <string name="InputHint2">Enter Profit </string>
+    <string name="BtnName3">Calculate</string>
+    <string name="txtAns4">Your Answer Will Appear in Here</string>
+    <string name="InputHint15">Enter Loss</string>
+    <string name="Us6">US Dollers</string>
+    <string name="Yen7">Japanese YEN</string>
+    <string name="Con8">Convert</string>
+    <string name="mon9">Answer</string>
+
     <string name="mon11">Answer</string>
 </resources>
