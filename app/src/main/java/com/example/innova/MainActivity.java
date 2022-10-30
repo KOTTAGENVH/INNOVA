@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, Admin.class);
                     startActivity(intent);
                 }else if(_txtUser.getText().toString().equals("user") && _txtPass.getText().toString().equals("user") && item.equals("user")){
-                    Intent intent = new Intent(MainActivity.this, user.class);
+                    Intent intent = new Intent(MainActivity.this, UserMainActivity.class);
                     startActivity(intent);
                 }else if(_txtUser.getText().toString().equals("Owner") && _txtPass.getText().toString().equals("Owner") && item.equals("Owner")){
                     Intent intent = new Intent(MainActivity.this, Owner.class);
