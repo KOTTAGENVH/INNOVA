@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Innova</string>
+    <string-array name="usertype">
+        <item>user</item>
+        <item>Admin</item>
+        <item>Owner</item>
+        <item>Deliverymanager</item>
+    </string-array>
+    <string name="Topic">Calculate Supplier Payment</string>
+    <string name="InputHint">Enter Product Count </string>
+    <string name="BtnName">Calculate</string>
+    <string name="txtAns">Your Answer Will Appear in Here</string>
+    <string name="InputHint1">Enter Product Price</string>
+    <string name="Us">US Dollers</string>
+    <string name="Yen">Japanese YEN</string>
+    <string name="Con">Convert</string>
+    <string name="mon">Answer</string>
+
+    <string name="Topic11">Calculate Rider Commission</string>
+    <string name="InputHint11">Enter Total Products Delivered </string>
+    <string name="BtnName11">Calculate</string>
+    <string name="txtAns11">Rider Commission.. </string>
+    <string name="txtAns13">Company Profit.. </string>
+    <string name="InputHint12">Enter Total Bill</string>
+    <string name="InputHint13">%</string>
+
+    <string name="mon11">Answer</string>
 </resources>

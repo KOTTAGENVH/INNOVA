@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:scrollbarSize="44dp">
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="215dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#021F2B"
+        android:gravity="center"
+        android:text="Manage Supplier"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnBack1"
+        android:layout_width="215dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#021F2B"
+        android:gravity="center"
+        android:text="Manage Rider"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnBack2"
+        android:layout_width="219dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#021F2B"
+        android:gravity="center"
+        android:text="Calculate Rider Payment"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EAE24D"
+
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        app:srcCompat="@drawable/logout_24"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/boss"
+        android:layout_width="171dp"
+        android:layout_height="45dp"
+        android:text="Hi Boss"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

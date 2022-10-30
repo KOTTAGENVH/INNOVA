@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Innova</string>
+    <string-array name="usertype">
+        <item>user</item>
+        <item>Admin</item>
+        <item>Owner</item>
+        <item>Deliverymanager</item>
+    </string-array>
+
+
+
+
+</resources>
