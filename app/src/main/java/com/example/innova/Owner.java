@@ -36,7 +36,7 @@ public class Owner extends AppCompatActivity {
         btnBack1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), Owner.class));
+                startActivity(new Intent(getApplicationContext(), MainRiderActivity.class));
 
             }
         });
@@ -44,7 +44,7 @@ public class Owner extends AppCompatActivity {
         btnBack2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), Owner.class));
+                startActivity(new Intent(getApplicationContext(), CalculateRider.class));
 
             }
         });
